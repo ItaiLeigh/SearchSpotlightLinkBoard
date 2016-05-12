@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	
+	"name": "Search Spotlight Link",
+	"description": "This extension adds search capabilities to the Link board section of the casting website Spotlight",
+	"version": "1.0",
+	"icons": {
+		"16": "images/icon16.png",
+		"48": "images/icon48.png",
+		"128": "images/icon128.png"
+	},
+	
+	"content_scripts": [
+		{
+			"matches": ["https://www.spotlight.com/artists/feed/*", "http://www.spotlight.com/artists/feed/*"],
+			"exclude_matches": ["http://www.spotlight.com/artists/feed/jobdetails*", "https://www.spotlight.com/artists/feed/jobdetails*"],
+			"js": ["scripts/jquery-1.11.3.js","scripts/addSearchBar.js"]
+		}
+	]
+	
+}
