@@ -1,4 +1,4 @@
-# SearchSpotlightLink
+# Search Spotlight Link
 A chrome extension to add a searchbar to the Spotlight's Link Board website for performers.
 Spotlight is the UK standard casting website: www.spotlight.com
 
@@ -20,7 +20,7 @@ Please note that this extension loads information it gets from Spotlight's serve
    - Adding a selection between searching all the jobs, only those the performer has submitted to or only those s/he hasn't
 
 
-#### Disclaime:
+#### Disclaimer:
 The extension was built after submitting a feature-request to the Spotlight team.
 The extension is in no way a replacement to the feature that in my humble opinion is needed as part of the website itself. A native feature would be a much better solution as it would be able to traverse the database itself rather than the shown briefs and the Board as this extension does, and it would be much faster and would take place most likely on server-side rather than client-side, keeping the website much more responsive.
 I am calling the Spotlight team to replace the need of this extension by introducing a similar (and better) searchbar for performers on the Link Board webpages. From the javascript it looks like such a searchbar is in place in certain circumstances (I'm guessing for other user types but that's merely a guess) and it should not be a problem to include it for performers as well.
