@@ -2,6 +2,7 @@
 	"manifest_version": 2,
 	
 	"name": "Search Spotlight Link",
+	"short_name": "SrchSptlight",
 	"description": "This extension adds search capabilities to the Link board section of the casting website Spotlight",
 	"version": "1.0",
 	"icons": {
