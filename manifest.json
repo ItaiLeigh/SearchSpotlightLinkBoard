@@ -4,7 +4,7 @@
 	"name": "Search Spotlight Link",
 	"short_name": "SrchSptlight",
 	"description": "This extension adds search capabilities to the Link board section of the casting website Spotlight",
-	"version": "1.0",
+	"version": "1.1",
 	"icons": {
 		"16": "images/icon16.png",
 		"48": "images/icon48.png",

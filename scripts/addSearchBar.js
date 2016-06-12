@@ -31,7 +31,6 @@ function searchTerm(){
 	} else {
 		$searchStr = "table.feedTable tr";
 	}
-	alert("searchStr="+$searchStr + " \r\n number of terms:"+keywords.length);
 	return $searchStr;
 }	
 
@@ -40,7 +39,6 @@ var trLoading = '<tr><td id="extTHMsg" align="center" colspan=5>Loading...</td><
 
 function searchPresent(){
 	var numOfPages = $("#numOfPages").val(); //number of pages to search
-	alert("number of page="+numOfPages);
 	var i = 1;
 	var $loadingLine;
 	var loadAnotherPage = function(response, status, xhr){ //callback method for the load - uses itself as the callback as well
@@ -51,7 +49,6 @@ function searchPresent(){
 			if ($loadingLine){ //dealing with the previous loadingLine (previous page)
 				$loadingLine.children().detach().appendTo("table.feedTable tbody");
 				$loadingLine.remove();
-				alert("re-appended and removed" + i);
 			} 
 			if (++i <= numOfPages) { //preparing and starting the search for the new loadingLine (new page)
 				$loadingLine = $('<tbody></tbody>');
